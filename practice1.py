@@ -31,3 +31,5 @@ print(dog1.get_name())
 dog.bark()
 print(dog.add_one(5))
 
+#dog_name = ["Tim", "Bill"]
+#dog_age = [32, 14] 

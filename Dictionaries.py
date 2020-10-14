@@ -45,3 +45,7 @@ for value in mydict1.values():
 
 for key, value in mydict1.items():
     print(key, value)
+
+
+mydict2 = mydict1.copy()
+mydict3 = dict(mydict1)

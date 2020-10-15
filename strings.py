@@ -47,7 +47,23 @@ print(names.count('a'))
 print(names.replace('aaaysee', 'Firdevs Elif'))
 
 my_string1 = 'how are you doing'
-my_list = my_string1.split()
+my_list = my_string1.split(" ")
 print(my_list)
+
+new_string = ' '.join(my_list)
+print(new_string)
+
+my_list1 = ['a'] * 6
+print(my_list1)
+
+#bad way
+my_string2 = ''
+for i in my_list1:
+    my_string2 += i
+print(my_string2)
+
+#Goodway
+my_string2 = ''.join(my_list1)
+print(my_string2)
 
 

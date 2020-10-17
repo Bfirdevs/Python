@@ -58,5 +58,7 @@ d1.extendleft([4, 5, 6, 7])
 print(d1)
 d1.rotate(1)
 print(d1)
+#d1.rotate(-1)
+#d1.rotate(2)
 
 

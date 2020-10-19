@@ -53,8 +53,8 @@ print(d1)
 
 #reduce function
 #reduce(func, seq)
-product_a = reduce(lambda x, y : x * y , a)
-print(product_a)
+product_a = reduce(lambda x, y : x * y , a) #multiplies all elemtents with each other
+print(product_a) 
 
 
 

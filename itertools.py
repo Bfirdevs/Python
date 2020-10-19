@@ -78,5 +78,5 @@ a= [1, 2, 3]
 for i in cycle(a):
     print(i)
 
-for i in repeat(1):
+for i in repeat(1, 4):
     print(i)
